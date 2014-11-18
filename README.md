@@ -4,7 +4,7 @@ bootstrap.beamDialog Version:1.0.0
 beamDialog 是基于bootstrap V3版本中的modal进行二次封装的结果.主要用于方便的调用modal框体.
 
 * 个人主页: http://about.me/beam
-
+* [Look Demo in JsFiddle:](http://jsfiddle.net/beamleung/m8py5bfL/8/embedded/result/)
 参数设置
 ---------
 参数设置:
