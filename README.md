@@ -5,27 +5,31 @@ beamDialog 是基于bootstrap V3版本中的modal进行二次封装的结果.主
 
 * 个人主页: http://about.me/beam
 * [Look Demo in JsFiddle:](http://jsfiddle.net/beamleung/m8py5bfL/8/embedded/result/)
-参数设置
----------
-参数设置:
 
-	//调用方式
+参数设置:
+-------------
 	$.beamDialog(options);
-	//options 配置
 	var defaults = {
 		title:'标题',
 		content:'内容',
-		showCloseButton:true,//显示关闭按钮
-		otherButtons:[],//其他按钮文本，样式默认,["确定","取消"]
-		otherButtonStyles:[],//其他按钮的样式，['btn-primary','btn-primary'],bootstrap按钮样式
-		bsModalOption:{},//默认的bootstrap模态对话框参数
-		dialogShow:function(){},//对话框即将显示事件
-		dialogShown:function(){},//对话框已经显示事件
-		dialogHide:function(){},//对话框即将关闭
-		dialogHidden:function(){},//对话框已经关闭事件
-		clickButton:function(sender,modal,index){}//选中按钮的序号，排除关闭按钮。sender:按钮jquery对象，model:对话框jquery对象,index:按钮的顺序,otherButtons的数组下标
+		showCloseButton:true,
+		//显示关闭按钮
+		otherButtons:[],
+		//其他按钮文本，样式默认,["确定","取消"]
+		otherButtonStyles:[],
+		//其他按钮的样式，['btn-primary','btn-primary'],bootstrap按钮样式
+		bsModalOption:{},
+		//默认的bootstrap模态对话框参数
+		dialogShow:function(){},
+		//对话框即将显示事件
+		dialogShown:function(){},
+		//对话框已经显示事件
+		dialogHide:function(){},
+		//对话框即将关闭
+		dialogHidden:function(){},
+		//对话框已经关闭事件
+		clickButton:function(sender,modal,index){}
 	}
-
 
 完整例子代码:
 -------------
