@@ -35,7 +35,7 @@ beamDialog 是基于bootstrap V3版本中的modal进行二次封装的结果.主
 		showCloseButton:true,
 		otherButtons:["确定","取消"],
 		otherButtonStyles:['btn-primary','btn-primary'],
-		bootstrapModalOption:{keyboard: true},
+		bsModalOption:{keyboard: true},
 		dialogShow:function(){
 			alert('即将显示对话框');
 		},
