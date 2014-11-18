@@ -1,4 +1,4 @@
-bootstrap.beamDialog Version:1.0.0
+bootstrap.beamDialog Version:1.0.18
 =========
 
 beamDialog 是基于bootstrap V3版本中的modal进行二次封装的结果.主要用于方便的调用modal框体.
@@ -67,3 +67,7 @@ beamDialog 是基于bootstrap V3版本中的modal进行二次封装的结果.主
 			content:'确认删除本条记录?'
 		});
 	}
+
+更新日志:
+-------------
+v 1.0.18 修复 Modal框体被创建后无法在关闭时被删除.
